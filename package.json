@@ -1,7 +1,7 @@
 { 
-    "name": "senna-bot",
-    "version": "3.0.0",
-    "description": "Customizable WhatsApp Bot",
+    "name": "serene-md",
+    "version": "1.1.0",
+    "description": "Simple Bot WhatsApp",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -12,7 +12,7 @@
     "scripts": {
         "start": "node index.js",
         "test": "node test.js",
-        "test2": "nodemon index.js"
+        "test2": "nodemon index.js --autoread"
     },
     "keywords": [
         "termux-whatsapp-bot",
@@ -20,22 +20,22 @@
         "whatsapp",
         "js-whatsapp",
         "whatsapp",
-        "dylux-bot",
-        "senna",
+        "nero-bot",
+        "serene",
         "multi-device",
-        "senna-bot",
+        "serene-bot",
         "baileys-md"
     ],
-    "homepage": "https://github.com/FG98F/senna-bot",
+    "homepage": "https://github.com/nanzone/serene-md",
     "author": {
-        "name": "FG98"
+        "name": "NANS OFFC"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/FG98F/senna-bot.git"
+        "url": "git+https://github.com/nanzone/serene-md.git"
     },
     "bugs": {
-        "url": "https://github.com/FG98F/senna-bot/issues"
+        "url": "https://github.com/nanzone/serene-md/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
@@ -62,7 +62,6 @@
         "node-fetch": "^3.2.10",
         "node-gtts": "^2.0.2",
         "node-webpmux": "^3.1.3",
-        "perf_hooks": "^0.0.1",
         "pino": "^8.6.1",
         "pino-pretty": "^9.1.1",
         "qrcode": "^1.5.1",
